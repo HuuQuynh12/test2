@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-import {Routes, Route} from 'react-router-dom';
+import {Routes, Route, Link} from 'react-router-dom';
 
 import Home from './Component/Home';
 import Page from './Component/Page'
@@ -15,13 +15,13 @@ function App() {
         <nav>
           <ul>
             <li>
-              <a href='/'>Home</a>
+              <Link to='/'>Home</Link>
             </li>
             <li>
-              <a href='/news'>News</a>
+              <Link to='/news'>News</Link>
             </li>
             <li>
-              <a href='/page'>Page</a>
+              <Link to='/page'>Page</Link>
             </li>
           </ul>
         </nav>
